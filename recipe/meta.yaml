@@ -1,5 +1,5 @@
 {% set name = "ee-client" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 15e72680d6673cc2a3dac4d4f6662389353f8d991dab5c23c7918c53a89f8b18
+  sha256: 7ac331d0d2f90ddae7b17cbfb2f15dbb81224dbb8f58115a1bc26329e52ae86f
 
 build:
   noarch: python
