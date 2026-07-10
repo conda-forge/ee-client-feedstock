@@ -26,6 +26,8 @@ requirements:
     - h2
     - tenacity
     - pydantic
+    - google-auth
+    - requests
 
 test:
   imports:
