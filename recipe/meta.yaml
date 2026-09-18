@@ -1,5 +1,5 @@
 {% set name = "ee-client" %}
-{% set version = "3.1.2" %}
+{% set version = "3.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: aaae6f6ceade6658a86c45dcdeb7a1bf6460db0aff84946e9b5d4ad92158357c
+  sha256: a15e0b50a15f5ff8ef9a2e215efdbc1620e4ae042f7ed956da4bf7fc79b59850
 
 build:
   noarch: python
